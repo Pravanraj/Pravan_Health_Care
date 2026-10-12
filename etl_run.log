@@ -1,0 +1,12 @@
+﻿python : Traceback (most recent call last):
+At line:1 char:345
++ ... pravan.raj\Downloads\capstone; python src/etl/run_etl.py 2>&1 | tee e ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\pravan.raj\Downloads\capstone\src\etl\run_etl.py", line 10, in <module>
+    from src.database.connection import init_db, SessionLocal
+  File "C:\Users\pravan.raj\Downloads\capstone\src\database\connection.py", line 6, in <module>
+    import bcrypt
+ModuleNotFoundError: No module named 'bcrypt'
