@@ -1,4 +1,4 @@
-# Healthcare Patient Management System (Pravan_Healthcare)
+# Health Care Patient Management System (Pravan_Healthcare)
 
 [![Python Version](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
