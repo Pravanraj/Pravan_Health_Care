@@ -49,19 +49,19 @@ def seed_default_users(db: Session) -> None:
     defaults = [
         {
             "username": "admin",
-            "password": "AdminPassword123!",
+            "password": "admin123",
             "role": "administrator",
             "full_name": "Chief Medical Officer (Admin)",
         },
         {
             "username": "clinician",
-            "password": "ClinicianPass123!",
+            "password": "clinic123",
             "role": "clinical_operations",
             "full_name": "Dr. Sarah Adams (Operations)",
         },
         {
             "username": "analyst",
-            "password": "AnalystPass123!",
+            "password": "analyst123",
             "role": "analyst",
             "full_name": "Alex Taylor (Data Analyst)",
         },
